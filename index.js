@@ -39,7 +39,6 @@ HtmlWebpackAssetPlugin.prototype.insertAsset = function (html, options) {
   rs = rs.replace(/\n*\s*{{metas}}/, metaTags);
   rs = rs.replace(/\n*\s*{{links}}/, linkTags);
   rs = rs.replace('{{title}}', title);
-  console.log(rs);
   return rs;
 };
 
